@@ -1,0 +1,50 @@
+{
+  "name": "TorchAndroid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@react-navigation/bottom-tabs": "^6.0.5",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "@ui-kitten/components": "^5.1.1",
+    "@ui-kitten/eva-icons": "^5.1.1",
+    "axios": "^0.21.4",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-admob": "^2.0.0-beta.6",
+    "react-native-animatable": "^1.3.3",
+    "react-native-background-timer": "^2.4.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.7.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-torch": "^1.2.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.2.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.0",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
